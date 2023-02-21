@@ -1,7 +1,9 @@
 # Prediction and Classification of Sleep
+
 The purpose of this study is to predict sleeping hours and classify sleep trouble with study, demographic, physical measurement, health, and lifestyle variables based on 5,000 American participants’ health and nutrition examination surveys since early 1960’s data.
 
 ## Predicting sleeping hours with Multiple Linear Regression and Decision Tree (Regression Tree)
+
 ### Multiple Linear Regression
 For the multiple regression model, an increase in the age decade is associated with a decrease in number of sleeping hours with decade 50-59 with the largest decrease. Out of Hispanic, Mexican, White and other races, Mexican race is associated with an increase of sleeping hours versus other race which has the least hours. Based on education, participants who are in high school are associated with a a decrease in sleeping hours versus other education groups. Those with lower household income are associated with an increase in sleeping hours compared to those with higher household income. Those with poor general health are associated with a decrease in sleeping hours compared to those with very good general health. Those who use the computer more than four hours a day are shown to be associated with an increase in sleeping hours than those less than four hours. Those who smoke at least 100 cigarettes a year are associated with a decrease in sleeping hours than others.
 
@@ -46,7 +48,8 @@ When comparing the models, 7% of the variability observed in the number of hours
 
 
 
-## Classifying sleep trouble with Logistic Regression, kNN, Random Forests, Naive Bayes
+## Classifying sleep trouble with Logistic Regression, kNN, C5.0, Random Forests, Naive Bayes
+
 <details><summary>Figure 2: Missingness</summary>
 <p>
   
@@ -55,40 +58,9 @@ When comparing the models, 7% of the variability observed in the number of hours
 </p>
 </details>
 
-### Logistic Regression
-The logistic model has a 76% accuracy and 70.8% ROC AUC value. Females are more likely to have sleep trouble than males. Increasing age, days with poor mental health, depression, weight, days with poor physical health, smoking at least 100 cigarettes in their life, and consuming at least 12 drinks of alcohol in one year will increase the probability of sleep trouble.
+The logistic model has a 76% accuracy and 70.8% ROC AUC value. k-NN model has a 89.3% accuracy and 94.0% ROC AUC value. C5.0 model has a 88.0% accuracy and 91.6% ROC AUC value. Random forests model has a 86.3% accuracy and 91.3% ROC AUC value. Naive Bayes model has a 74.6% accuracy and 68.9% ROC AUC value. When comparing the models, kNN performed the best out of the four models with the best ROC AUC value and highest accuracy.
 
-<details><summary>Figure 3a: Predictions</summary>
-<p>
-  
-![](https://github.com/ihnguyen/nutrition/blob/main/predictors_1.png)
-  
-</p>
-</details>
-
-<details><summary>Figure 3b: Predictions</summary>
-<p>
-  
-![](https://github.com/ihnguyen/nutrition/blob/main/predictors_2.png)
-  
-</p>
-</details>
-
-### kNN
-K-NN model has a 89.3% accuracy and 94.0% ROC AUC value.
-
-### C5.0
-C5.0 model has a 88.0% accuracy and 91.6% ROC AUC value.
-
-### Random Forests
-Random forests model has a 86.3% accuracy and 91.3% ROC AUC value
-
-### Naive Bayes
-Naive Bayes model has a 74.6% accuracy and 68.9% ROC AUC value
-
-When comparing the models, kNN performed the best out of the four models with the best ROC AUC value and highest accuracy.
-
-<details><summary>Figure 4: ROC AUC Plot - Model Comparison</summary>
+<details><summary>Figure 3: ROC AUC Plot - Model Comparison</summary>
 <p>
   
 ![](https://github.com/ihnguyen/nutrition/blob/main/rocauc.png)
