@@ -31,7 +31,9 @@ When comparing the models, 7% of the variability observed in the number of hours
 
 <details><summary>Table 1: Evaluation of Regression Tree Model</summary>
 <p>
+
 ![regression_tree2](https://user-images.githubusercontent.com/73903035/220228992-e25306a3-9647-4bbd-8d56-db8e67f9e9c2.png)
+
 </p>
 </details>
 
