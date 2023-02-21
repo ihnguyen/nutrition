@@ -15,7 +15,7 @@ In the regression tree model, the two main predictors that explain number of sle
 <details><summary>Figure 1: Decision Tree</summary>
 <p>
   
-![](https://github.com/ihnguyen/nutrition/tree/main/Figures/decision_tree.png)
+![decision_tree](https://user-images.githubusercontent.com/73903035/220234058-b5061b0e-47f6-41f1-b36d-75e2b4d65e11.png)
   
 </p>
 </details>
@@ -54,7 +54,7 @@ When comparing the models, 7% of the variability observed in the number of hours
 <details><summary>Figure 2: Missingness</summary>
 <p>
   
-![](https://github.com/ihnguyen/nutrition/blob/main/Figures/missingness.png)
+![missingness](https://user-images.githubusercontent.com/73903035/220234137-b20a2cea-53e1-40c7-a67f-2ae8f4210606.png)
   
 </p>
 </details>
@@ -63,8 +63,8 @@ The logistic model has a 76% accuracy and 70.8% ROC AUC value. k-NN model has a 
 
 <details><summary>Figure 3: ROC AUC Plot - Model Comparison</summary>
 <p>
-  
-![](https://github.com/ihnguyen/nutrition/blob/main/Figures/rocauc.png)
+
+![rocauc](https://user-images.githubusercontent.com/73903035/220234093-1d44c335-289e-4a82-bab0-358a75938891.png)
   
 </p>
 </details>
