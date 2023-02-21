@@ -89,7 +89,7 @@ When comparing the models, kNN performed the best out of the four models.
 
 1 kNN roc_auc binary 0.933 2 C5.0 roc_auc binary 0.915 3 Random Forest roc_auc binary 0.900 4 Logistic Regression roc_auc binary 0.714 5 Naive Bayes roc_auc binary 0.703
 
-<details><summary>Figure 3: ROC AUC Plot - Model Comparison</summary>
+<details><summary>Figure 4: ROC AUC Plot - Model Comparison</summary>
 <p>
   
 ![](https://github.com/ihnguyen/nutrition/blob/main/rocauc.png)
