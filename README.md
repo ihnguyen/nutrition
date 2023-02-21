@@ -47,7 +47,7 @@ When comparing the models, 7% of the variability observed in the number of hours
 
 
 ## Classifying sleep trouble with Logistic Regression, kNN, Random Forests, Naive Bayes
-<details><summary>Figure 1: Missingness</summary>
+<details><summary>Figure 2: Missingness</summary>
 <p>
   
 ![](https://github.com/ihnguyen/nutrition/blob/main/missingness.png)
@@ -57,7 +57,7 @@ When comparing the models, 7% of the variability observed in the number of hours
 ### Logistic Regression
 The logistic model has a 76% accuracy. Females are more likely to have sleep trouble than males. Increasing age, days with poor mental health, depression, weight, days with poor physical health, smoking at least 100 cigarettes in their life, and consuming at least 12 drinks of alcohol in one year will increase the probability of sleep trouble.
 
-<details><summary>Figure 2a: Predictions</summary>
+<details><summary>Figure 3a: Predictions</summary>
 <p>
   
 ![](https://github.com/ihnguyen/nutrition/blob/main/predictors_1.png)
@@ -65,7 +65,7 @@ The logistic model has a 76% accuracy. Females are more likely to have sleep tro
 </p>
 </details>
 
-<details><summary>Figure 2b: Predictions</summary>
+<details><summary>Figure 3b: Predictions</summary>
 <p>
   
 ![](https://github.com/ihnguyen/nutrition/blob/main/predictors_2.png)
