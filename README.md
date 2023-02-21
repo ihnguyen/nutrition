@@ -7,6 +7,7 @@ The purpose of this study is to predict sleeping hours and classify sleep troubl
 ### Multiple Linear Regression
 For the multiple regression model, an increase in the age decade is associated with a decrease in number of sleeping hours with decade 50-59 with the largest decrease. Out of Hispanic, Mexican, White and other races, Mexican race is associated with an increase of sleeping hours versus other race which has the least hours. Based on education, participants who are in high school are associated with a a decrease in sleeping hours versus other education groups. Those with lower household income are associated with an increase in sleeping hours compared to those with higher household income. Those with poor general health are associated with a decrease in sleeping hours compared to those with very good general health. Those who use the computer more than four hours a day are shown to be associated with an increase in sleeping hours than those less than four hours. Those who smoke at least 100 cigarettes a year are associated with a decrease in sleeping hours than others.
 
+
 ### Decision Tree (Regression Tree)
 In the regression tree model, the two main predictors that explain number of sleeping hours in a weekday/workday night are number of days of poor mental health and age decade. Those with 5.5 or more days of poor mental health are predicted to have 6.2 hours of sleep. Those with less than 5.5 days of poor mental health and belong to age range 20-69 are predicted to have 6.9 hours of sleep. Those with less than 5.5 days of poor mental health and are older than 69 are predicted to have 7.3 hours of sleep.
 
@@ -75,6 +76,11 @@ The logistic model has a 76% accuracy and 70.8% ROC AUC value. k-NN model has a 
   
 </p>
 </details>
+
+## Conclusion
+
+When predicting sleeping hours, the best model for determining the number of hours a participant sleeps is the multiple linear regression model. The most significant predictors are age decade, race, education, household income, general health, computer/gaming usage, and smoking at least 100 cigarettes. As for classifying sleep trouble, the best model for determining if a participant has sleep trouble or not is the kNN model.
+
 
 ## How to improve models?
 - C5.0 by boosting
