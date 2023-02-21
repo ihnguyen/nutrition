@@ -54,6 +54,7 @@ When comparing the models, 7% of the variability observed in the number of hours
   
 </p>
 </details>
+
 ### Logistic Regression
 The logistic model has a 76% accuracy. Females are more likely to have sleep trouble than males. Increasing age, days with poor mental health, depression, weight, days with poor physical health, smoking at least 100 cigarettes in their life, and consuming at least 12 drinks of alcohol in one year will increase the probability of sleep trouble.
 
