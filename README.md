@@ -19,7 +19,7 @@ In the regression tree model, the two main predictors that explain number of sle
 
 When comparing the models, 7% of the variability observed in the number of hours of sleep a weekday or workday night is explained by the multiple regression model whereas only 3% of the variability observed in the number of hours of sleep a weekday or workday night is explained by the decision tree model. Since linear model has the lowest RMSE of 1.29 and MAE of 1.01, the multiple linear regression model is the best at predicting number of sleeping hours per weekday/workday night in the NHANES data set.
 
-<details><summary>Table 1: Evaluation of Null Model</summary>
+<details><summary>Table 1a: Evaluation of Null Model</summary>
 <p>
   
 ![null2](https://user-images.githubusercontent.com/73903035/220229574-87de77ed-1fc3-43d7-ac3f-99b3a572509d.png)
@@ -27,7 +27,7 @@ When comparing the models, 7% of the variability observed in the number of hours
 </p>
 </details>
 
-<details><summary>Table 1: Evaluation of Multiple Linear Regression Model</summary>
+<details><summary>Table 1b: Evaluation of Multiple Linear Regression Model</summary>
 <p>
   
 ![mlr2](https://user-images.githubusercontent.com/73903035/220229708-73bd57bf-47ad-494c-b77e-bee8a11cbfac.png)
@@ -35,7 +35,7 @@ When comparing the models, 7% of the variability observed in the number of hours
 </p>
 </details>
 
-<details><summary>Table 1: Evaluation of Regression Tree Model</summary>
+<details><summary>Table 1c: Evaluation of Regression Tree Model</summary>
 <p>
 
 ![regression_tree2](https://user-images.githubusercontent.com/73903035/220228992-e25306a3-9647-4bbd-8d56-db8e67f9e9c2.png)
@@ -57,7 +57,7 @@ When comparing the models, 7% of the variability observed in the number of hours
 ### Logistic Regression
 The logistic model has a 76% accuracy. Females are more likely to have sleep trouble than males. Increasing age, days with poor mental health, depression, weight, days with poor physical health, smoking at least 100 cigarettes in their life, and consuming at least 12 drinks of alcohol in one year will increase the probability of sleep trouble.
 
-<details><summary>Figure 1: Predictions</summary>
+<details><summary>Figure 2a: Predictions</summary>
 <p>
   
 ![](https://github.com/ihnguyen/nutrition/blob/main/predictors_1.png)
@@ -65,7 +65,7 @@ The logistic model has a 76% accuracy. Females are more likely to have sleep tro
 </p>
 </details>
 
-<details><summary>Figure 1: Predictions</summary>
+<details><summary>Figure 2b: Predictions</summary>
 <p>
   
 ![](https://github.com/ihnguyen/nutrition/blob/main/predictors_2.png)
@@ -89,7 +89,7 @@ When comparing the models, kNN performed the best out of the four models.
 
 1 kNN roc_auc binary 0.933 2 C5.0 roc_auc binary 0.915 3 Random Forest roc_auc binary 0.900 4 Logistic Regression roc_auc binary 0.714 5 Naive Bayes roc_auc binary 0.703
 
-<details><summary>Figure 1: ROC AUC Plot - Model Comparison</summary>
+<details><summary>Figure 3: ROC AUC Plot - Model Comparison</summary>
 <p>
   
 ![](https://github.com/ihnguyen/nutrition/blob/main/rocauc.png)
@@ -97,7 +97,7 @@ When comparing the models, kNN performed the best out of the four models.
 </p>
 </details>
 
-<details><summary>Table 1: ROC AUC Values - Model Comparison</summary>
+<details><summary>Table 2: ROC AUC Values - Model Comparison</summary>
 <p>
   
 ![roc_auc_models_all2](https://user-images.githubusercontent.com/73903035/220229874-a0fd785e-c188-42a9-be00-96895adc2771.png)
