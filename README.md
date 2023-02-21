@@ -11,7 +11,9 @@ In the regression tree model, the two main predictors that explain number of sle
 
 <details><summary>Figure 1: Decision Tree</summary>
 <p>
+  
 ![](https://github.com/ihnguyen/nutrition/blob/main/decision_tree.png)
+  
 </p>
 </details>
 
@@ -19,13 +21,17 @@ When comparing the models, 7% of the variability observed in the number of hours
 
 <details><summary>Table 1: Evaluation of Null Model</summary>
 <p>
+  
 ![](https://github.com/ihnguyen/nutrition/blob/main/null.png)
+  
 </p>
 </details>
 
 <details><summary>Table 1: Evaluation of Multiple Linear Regression Model</summary>
 <p>
+  
 ![](https://github.com/ihnguyen/nutrition/blob/main/mlr.png)
+  
 </p>
 </details>
 
@@ -51,13 +57,17 @@ The logistic model has a 76% accuracy. Females are more likely to have sleep tro
 
 <details><summary>Figure 1: Predictions</summary>
 <p>
+  
 ![](https://github.com/ihnguyen/nutrition/blob/main/predictors_1.png)
+  
 </p>
 </details>
 
 <details><summary>Figure 1: Predictions</summary>
 <p>
+  
 ![](https://github.com/ihnguyen/nutrition/blob/main/predictors_2.png)
+  
 </p>
 </details>
 
@@ -79,13 +89,17 @@ When comparing the models, kNN performed the best out of the four models.
 
 <details><summary>Figure 1: ROC AUC Plot - Model Comparison</summary>
 <p>
+  
 ![](https://github.com/ihnguyen/nutrition/blob/main/rocauc.png)
+  
 </p>
 </details>
 
 <details><summary>Table 1: ROC AUC Values - Model Comparison</summary>
 <p>
+  
 ![](https://github.com/ihnguyen/nutrition/blob/main/rocauc.png)
+  
 </p>
 </details>
 
