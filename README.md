@@ -56,7 +56,7 @@ When comparing the models, 7% of the variability observed in the number of hours
 </details>
 
 ### Logistic Regression
-The logistic model has a 76% accuracy. Females are more likely to have sleep trouble than males. Increasing age, days with poor mental health, depression, weight, days with poor physical health, smoking at least 100 cigarettes in their life, and consuming at least 12 drinks of alcohol in one year will increase the probability of sleep trouble.
+The logistic model has a 76% accuracy and 70.8% ROC AUC value. Females are more likely to have sleep trouble than males. Increasing age, days with poor mental health, depression, weight, days with poor physical health, smoking at least 100 cigarettes in their life, and consuming at least 12 drinks of alcohol in one year will increase the probability of sleep trouble.
 
 <details><summary>Figure 3a: Predictions</summary>
 <p>
@@ -75,20 +75,18 @@ The logistic model has a 76% accuracy. Females are more likely to have sleep tro
 </details>
 
 ### kNN
-The kNN model has a 89.3% accuracy and ROC AUC value is 81.5%.
+K-NN model has a 89.3% accuracy and 94.0% ROC AUC value.
 
 ### C5.0
-88.0% accuracy % roc auc
+C5.0 model has a 88.0% accuracy and 91.6% ROC AUC value.
 
 ### Random Forests
-86.3% accuracy 88.3% roc auc
+Random forests model has a 86.3% accuracy and 91.3% ROC AUC value
 
 ### Naive Bayes
-74.6% accuracy 70.2% roc auc
+Naive Bayes model has a 74.6% accuracy and 68.9% ROC AUC value
 
-When comparing the models, kNN performed the best out of the four models.
-
-1 kNN roc_auc binary 0.933 2 C5.0 roc_auc binary 0.915 3 Random Forest roc_auc binary 0.900 4 Logistic Regression roc_auc binary 0.714 5 Naive Bayes roc_auc binary 0.703
+When comparing the models, kNN performed the best out of the four models with the best ROC AUC value and highest accuracy.
 
 <details><summary>Figure 4: ROC AUC Plot - Model Comparison</summary>
 <p>
