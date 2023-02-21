@@ -22,7 +22,7 @@ When comparing the models, 7% of the variability observed in the number of hours
 <details><summary>Table 1: Evaluation of Null Model</summary>
 <p>
   
-![](https://github.com/ihnguyen/nutrition/blob/main/null.png)
+![null2](https://user-images.githubusercontent.com/73903035/220229574-87de77ed-1fc3-43d7-ac3f-99b3a572509d.png)
   
 </p>
 </details>
@@ -30,7 +30,7 @@ When comparing the models, 7% of the variability observed in the number of hours
 <details><summary>Table 1: Evaluation of Multiple Linear Regression Model</summary>
 <p>
   
-![](https://github.com/ihnguyen/nutrition/blob/main/mlr.png)
+![mlr2](https://user-images.githubusercontent.com/73903035/220229708-73bd57bf-47ad-494c-b77e-bee8a11cbfac.png)
   
 </p>
 </details>
@@ -49,7 +49,9 @@ When comparing the models, 7% of the variability observed in the number of hours
 ## Classifying sleep trouble with Logistic Regression, kNN, Random Forests, Naive Bayes
 <details><summary>Figure 1: Missingness</summary>
 <p>
+  
 ![](https://github.com/ihnguyen/nutrition/blob/main/missingness.png)
+  
 </p>
 </details>
 ### Logistic Regression
@@ -98,7 +100,7 @@ When comparing the models, kNN performed the best out of the four models.
 <details><summary>Table 1: ROC AUC Values - Model Comparison</summary>
 <p>
   
-![](https://github.com/ihnguyen/nutrition/blob/main/rocauc.png)
+![roc_auc_models_all2](https://user-images.githubusercontent.com/73903035/220229874-a0fd785e-c188-42a9-be00-96895adc2771.png)
   
 </p>
 </details>
