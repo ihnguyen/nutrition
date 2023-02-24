@@ -86,3 +86,5 @@ When predicting sleeping hours, the best model for determining the number of hou
 - C5.0 by boosting
 - Decision tree by cost or trials
 - Logistic and Linear Regression by regularization
+- Random Forests by tuning
+- Cross-Validation
