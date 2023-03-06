@@ -82,9 +82,10 @@ The logistic model has a 76% accuracy and 70.8% ROC AUC value. k-NN model has a 
 When predicting sleeping hours, the best model for determining the number of hours a participant sleeps is the multiple linear regression model. The most significant predictors are age decade, race, education, household income, general health, computer/gaming usage, and smoking at least 100 cigarettes. As for classifying sleep trouble, the best model for determining if a participant has sleep trouble or not is the kNN model.
 
 
-## How to improve models?
+## How to improve models and model performance?
 - C5.0 by boosting
 - Decision tree by cost or trials
 - Logistic and Linear Regression by regularization
 - Random Forests by tuning
+- Naive Bayes by laplace
 - Cross-Validation
